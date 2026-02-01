@@ -1,0 +1,10 @@
+[project]
+name = "sphinx-demo"
+version = "0.1.0"
+description = "A demonstration of how Sphinx is used to document your code or processes"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "renku-sphinx-theme>=0.5.2",
+    "sphinx>=9.1.0",
+]
