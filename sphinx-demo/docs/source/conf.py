@@ -33,7 +33,7 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = "sphinx_pdj_theme"  # use 'renku' or 'sphinx_pdj_theme' or 'sphinx_wagtail_theme'. Default 'alabaster'
+html_theme = "sphinx_wagtail_theme"  # use 'renku' or 'sphinx_pdj_theme' or 'sphinx_wagtail_theme'. Default 'alabaster'
 html_static_path = ['_static']
 html_logo = "_static/sphinx.svg"
 
