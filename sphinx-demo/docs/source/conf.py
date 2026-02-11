@@ -22,7 +22,7 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.napoleon",
     "sphinx.ext.viewcode",
-    # "sphinx_wagtail_theme",
+    "sphinx_wagtail_theme",
 ]
 
 templates_path = ['_templates']
