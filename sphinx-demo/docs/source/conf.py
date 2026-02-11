@@ -22,6 +22,7 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.napoleon",
     "sphinx.ext.viewcode",
+    # "sphinx_wagtail_theme",
 ]
 
 templates_path = ['_templates']
@@ -32,7 +33,7 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'renku'
+html_theme = "renku"  # use 'renku' or 'sphinx_pdj_theme' or 'sphinx_wagtail_theme'. Default 'alabaster'
 html_static_path = ['_static']
 html_logo = "_static/sphinx.svg"
 
